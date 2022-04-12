@@ -334,11 +334,36 @@ input[type="text"]:focus, textarea:focus {
 .control--radio .control__indicator:after {
   left: 7px;
   top: 7px;
-  height: 8px;
-  width: 8px;
+
   border-radius: 50%;
   background: #fff;
 }
 .control--radio input:disabled ~ .control__indicator:after {
   background: #7b7b7b;
+}
+
+
+/* Begin Chase's Custom CSS */
+
+.card_number {
+  height: 1rem;
+  width: 1rem;
+  border-radius: 80%;
+}
+
+.chase_head {
+  display: flex;
+  height: 10rem;
+  width: 100%;
+  background-color: rgb(120, 212, 243);
+  margin: auto;
+  justify-content: center;
+}
+
+.chase_head h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 5vh;
+  margin: 10px;
+  width: 80%;
 }
